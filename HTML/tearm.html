@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/tearm.css">
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      </style>
+</head>
+<body>
+<h1 id="cup">MEET THE TEAM</h1>
+<img src="../img/team.jpg" width="100%"><br>
+<div class="text">
+  <p class="text">Founded in 2010, The ButterCup Group has a genuine passion for delivering world class experiences to event organisers, brands, agency clients and suppliers globally.</p>
+<a href="about.html"><button type="submit">WHO WE ARE?</button></a></div>
+<h2> "Meet The Team" Section</h2>
+<p>Our team leaders are:</p>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="../img/arya.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>ARYA NR</h2>
+        <p class="title">CEO & Founder</p>
+        <p>She is the owner and the founder of our company.</p>
+        <p>aryamuthu@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../img/ashna.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>ASHNA L PAUL</h2>
+        <p class="title">Art Director</p>
+        <p>She control all the events and manage and codiate the function.</p>
+        <p>ashnalpaul1997@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="../img/athira.JPG" alt="John" style="width:100%" height="500">
+      <div class="container">
+        <h2>ATHIRA PV</h2>
+        <p class="title">Designer</p>
+        <p>She is the head of the planning session.</p>
+        <p>athirapv@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+ <a href="home.html"><button class="btn" type="submit">Back</button></a>
+ <footer id="site-footer">
+  <nav>
+  <h2>ButterCup Event</h2>
+  <p>
+  <a id="tel" href="tel:"9876543210">0474-2524530</a>|
+      <a id="email" href="tearm.html">info@buttercupevent.co.in</a>|
+    <a id="website" href="video.html">eventcupmanagement.co.in.co.uk</a>
+    <a id="colophon" class="site-footer" role="contentinfo"></a>
+<div class="social-wrapper">
+  <ul>
+    <li>
+      <a href="#" target="_blank">
+        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+    </li>
+    <li>
+      <a href="#" target="_blank">
+        <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+    </li>
+   <li>
+      <a href="#" target="_blank">
+        <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+    </li>
+    <li>
+      <a href="#" target="_blank">
+        <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-plus-icon.png" alt="Googleplus Logo" class="googleplus-icon"></a>
+    </li>
+    <li>
+      <a href="video.html" target="_blank">
+        <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+    </li>
+    <li>
+      <a href="#" target="_blank">
+        <img src="http://www.iconarchive.com/download/i94258/designbolts/vector-foursquare/Foursquare-2.ico" alt="Foursquare Logo" class="foursquare-icon"></a>
+    </li>
+  </ul>
+</div>
+
+<nav class="footer-nav" role="navigation">
+  <p>Copyright &copy; 2013-
+    <?php echo date("Y"); ?> Cisco Rendon. All rights reserved.</p>
+</nav>
+<!-- #colophon -->
+      </nav>
+</footer>
+</body>
+</html>
