@@ -1,0 +1,35 @@
+
+
+#site-footer {
+  align-items: center;
+  background-color:lightyellow;
+  color:blueviolet;
+  display: flex;
+  flex-direction: column;
+  font-family: 'CircularSTD',sans-serif;
+  letter-spacing: .1em;
+  padding: 70px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 3;
+  }
+  #site-footer{
+  margin-top: 30px;
+  }
+  .text{
+  text-align: center;
+  font-style: italic;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  }
+  body{
+  background-color: black;
+  }
+  #cup{
+  font-style: initial;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  }

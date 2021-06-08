@@ -1,0 +1,104 @@
+h1 {
+    text-shadow: 2px 2px #FF0000;
+    text-align: center;
+    text-justify: auto;
+    font-size:ss70px;
+  }
+  .topnav1 {
+    overflow: hidden;
+    background-color: #333;
+  }
+   .topnav1 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav1 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav1 a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ *{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+.container {
+  position: relative;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.content {
+  opacity: 0;
+  font-size: 40px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #1c87c9;
+  background-color: rgba(231, 29, 29, 0.5);
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+
+.container .content:hover {
+  opacity: 1;
+}
+
+.container.content .text {
+  height: 0;
+ transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.example .content:hover .text {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
